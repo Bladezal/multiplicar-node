@@ -11,6 +11,11 @@
 
          let data = '';
 
+         console.log('=============='.green);
+         console.log(`Tabla del ${base}`.green);
+         console.log('=============='.green);
+
+
          for (let i = 1; i <= limite; i++) {
              data += `${base} * ${i} = ${base*i}\n`;
 
